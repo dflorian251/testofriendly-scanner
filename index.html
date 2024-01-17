@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barcode Scanner</title>
-    <link rel="stylesheet" href="css/style.css">
+    <script src="path/to/quagga.min.js"></script>
+    <script src="path/to/BarcodeScannerReader.js"></script>
 </head>
 <body>
-    <div id="app">
-        <video id="qr-video"></video>
-        <p id="result">Scanning...</p>
-    </div>
-    <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
-    <script src="js/script.js"></script>
+    <input type="file" id="barcode-image-input" accept="image/*">
+    <button onclick="scanBarcode()">Scan Barcode</button>
+    <div id="result"></div>
+    <script src="js/app.js"></script>
 </body>
 </html>
