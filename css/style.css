@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    text-align: center;
+}
+
+#qr-video {
+    width: 100%;
+    max-width: 400px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
